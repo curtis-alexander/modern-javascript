@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/curtis-alexander/modern-javascript/issues"
   },
-  "homepage": "https://github.com/curtis-alexander/modern-javascript#readme"
+  "homepage": "https://github.com/curtis-alexander/modern-javascript#readme",
+  "dependencies": {
+    "tinycolor": "^0.0.1"
+  }
 }

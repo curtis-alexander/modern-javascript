@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\"); // require\nmoment().format();\n\nconsole.log(\"helllllooo\");\nconsole.log(moment().startOf('day').fromNow());\nconsole.log(moment().endOf('day').fromNow());\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\"); // require\n\n\nmoment().format();\nconsole.log(\"helllllooo\");\nconsole.log(moment().startOf('day').fromNow());\nconsole.log(moment().endOf('day').fromNow());\nvar bob = {\n  _name: \"Bob\",\n  _friends: [],\n  printFriends: function printFriends() {\n    var _this = this;\n\n    this._friends.forEach(function (f) {\n      return console.log(_this._name + \" knows \" + f);\n    });\n  }\n};\nconsole.log(bob);\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 

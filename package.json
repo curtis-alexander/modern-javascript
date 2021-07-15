@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/curtis-alexander/modern-javascript#readme",
   "dependencies": {
-    "tinycolor": "^0.0.1"
+    "tinycolor": "^0.0.1",
+    "tinycolor2": "^1.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
   }
 }

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/curtis-alexander/modern-javascript#readme",
   "dependencies": {
+    "moment": "^2.29.1",
     "tinycolor": "^0.0.1",
     "tinycolor2": "^1.4.2"
   },
